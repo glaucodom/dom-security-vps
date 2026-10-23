@@ -1,0 +1,14 @@
+interface:
+  display_name: Dom Security VPS
+  short_description: Auditoria e proteção de VPS Linux contra invasões
+  default_prompt: Use $dom-security-vps para auditar a segurança da minha VPS, priorizar
+    riscos e preparar correções com rollback.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
